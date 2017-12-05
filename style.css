@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Shadows+Into+Light');
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+}
+/*-------------------------------------------------HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  color: white;
+  padding: 20px 30px;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 4rem;
+  border-bottom: 2px solid white;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+#drop-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profile-pic {
+  height: 70px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+li ul {
+  display: none;
+}
+
+ul li a {
+  font-size: 1.3rem;
+  border-bottom: 2px solid white;
+  display: block;
+  background: red;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+}
+
+ul li a:hover {
+  background: #f00;
+}
+
+#drop-nav:hover ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li {
+  float: none;
+}
+
+li:hover a {
+  background: #f00;
+}
+
+li:hover li a:hover {
+  background: #000;
+}
+
+#drop-nav li ul li {
+  border-top: 0px;
+}
+/*-------------------------------------------------MAIN*/
+main {
+  height: 92vh;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/*--------------------------------------------------FORM*/
+form {
+  font-size: 1.6rem;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40vh;
+  padding: 30px;
+  background-color: red;
+  border: 2px solid white;
+}
