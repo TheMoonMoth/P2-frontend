@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AbSense</title>
+    <link rel="stylesheet" href="stylesheets/reset.css">
+    <link rel="stylesheet" href="stylesheets/parent.css">
+  </head>
+  <body>
+    <header>
+
+      <div id="title">
+        <a href="index.html">
+          <h1>AbSense</h1>
+          <h2>Absentee Reporter</h2>
+        </a>
+      </div>
+
+      <h2>Parent Portal</h2>
+
+      <ul id="drop-nav">
+        <li>
+          <img id="profile-pic" src="imgs/placeholder-profile.png" alt="current user's photo">
+        </li>
+        <li><a href="#">Account</a>
+          <ul>
+            <li><a href="#">Attendance</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+
+    </header>
+
+    <main>
+      <form>
+        <div id="teacher">
+          <label>Teacher:</label>
+          <select>
+            <option class="invisible" value="teacher"></option>
+            <option>Select your student's teacher:</option>
+          </select>
+        </div>
+
+        <div id="gradelevel">
+          <label>Grade Level:</label>
+          <select>
+            <option class="invisible" value="gradelevel"></option>
+            <option>Select your student's classroom:</option>
+          </select>
+        </div>
+
+        <div id="student">
+          <label>Student:</label>
+          <select>
+            <option class="invisible" value="student"></option>
+            <option>Select your student's name</option>
+          </select>
+        </div>
+
+        <div id="reason">
+          <label>Reason:</label>
+          <textarea cols="40" rows="5" name="reason"></textarea>
+        </div>
+
+        <input id="submit" type="submit" value="Submit"/>
+      </form>
+
+
+    </main>
+
+
+  </body>
+</html>

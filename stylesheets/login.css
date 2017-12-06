@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Shadows+Into+Light');
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+}
+/*-------------------------------------------------HEADER*/
+header {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  padding: 20px 10%;
+  shadow: 0px 50px hsla(0, 0%, 20%, 0.5);
+  background-image: linear-gradient(to right, white 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 20px 1px;
+  background-repeat: repeat-x;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 4rem;
+  border-bottom: 2px solid white;
+  margin-bottom: 5px;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+
+#drop-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profile-pic {
+  height: 70px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+li ul {
+  display: none;
+}
+
+ul li a {
+  font-size: 1.3rem;
+  border-bottom: 2px solid white;
+  display: block;
+  background: red;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+}
+
+ul li a:hover {
+  background: #f00;
+}
+
+#drop-nav:hover ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li {
+  float: none;
+}
+
+li:hover a {
+  background: #f00;
+}
+
+li:hover li a:hover {
+  background: #000;
+}
+
+#drop-nav li ul li {
+  border-top: 0px;
+}
+/*-------------------------------------------------MAIN*/
+main {
+  height: 92vh;
+  padding: 20px 10px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
+
+/*--------------------------------------------------FORMS*/
+#parentLogin, #teacherLogin {
+  font-size: 1.6rem;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  width: 250px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-color: red;
+  border: 2px solid white;
+  box-shadow: -5px 10px 15px 2px hsla(0, 0%, 20%, 0.5)
+}
+
+#parentLogin p, #teacherLogin p {
+  font-size: 1rem;
+  text-align: center;
+  margin:10px;
+  letter-spacing: 1px;
+}
+
+div h2 {
+  text-decoration: underline;
+}
+
+main div a {
+  color: white;
+  width: 50%;
+  padding: 5px 20px;
+  margin-top: 5px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Shadows+Into+Light');
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+}
+/*-------------------------------------------------HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  color: white;
+  padding: 20px 10%;
+  shadow: 0px 50px hsla(0, 0%, 20%, 0.5);
+  background-image: linear-gradient(to right, white 33%, rgba(255,255,255,0) 0%);
+  background-position: bottom;
+  background-size: 20px 1px;
+  background-repeat: repeat-x;
+}
+
+h1 {
+  font-family: 'Shadows Into Light', sans-serif;
+  font-size: 4rem;
+  border-bottom: 2px solid white;
+  margin-bottom: 5px;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  align-self: center;
+  color: white;
+}
+
+
+#drop-nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#profile-pic {
+  height: 70px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+li ul {
+  display: none;
+}
+
+ul li a {
+  font-size: 1.3rem;
+  border-bottom: 2px solid white;
+  display: block;
+  background: red;
+  padding: 5px 10px 5px 10px;
+  color: #fff;
+}
+
+ul li a:hover {
+  background: #f00;
+}
+
+#drop-nav:hover ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li {
+  float: none;
+}
+
+li:hover a {
+  background: #f00;
+}
+
+li:hover li a:hover {
+  background: #000;
+}
+
+#drop-nav li ul li {
+  border-top: 0px;
+}
+/*-------------------------------------------------MAIN*/
+main {
+  height: 92vh;
+  padding: 20px 10px;
+  background-color: grey;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+
+/*--------------------------------------------------FORM*/
+form {
+  font-size: 1.6rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 40vh;
+  padding: 30px;
+  background-color: red;
+  border: 2px solid white;
+  box-shadow: -5px 10px 15px 2px hsla(0, 0%, 20%, 0.5)
+}
+
+form #submit {
+  width: 80%;
+  align-self: center;
+  background-color: yellow;
+}

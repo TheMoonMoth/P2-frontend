@@ -22,10 +22,13 @@ h1 {
   font-size: 4rem;
   border-bottom: 2px solid white;
   margin-bottom: 5px;
+  color: white;
 }
 
 h2 {
   font-size: 2rem;
+  align-self: center;
+  color: white;
 }
 
 
@@ -93,7 +96,7 @@ main {
 /*--------------------------------------------------FORM*/
 form {
   font-size: 1.6rem;
-  width: 80%;
+  width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -106,7 +109,37 @@ form {
 }
 
 form #submit {
-  width: 80%;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 2rem;
+  background-color: red;
+  border: 2px solid black;
+  width: 30%;
   align-self: center;
-  background-color: yellow;
+}
+
+form select {
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1rem;
+  background-color: red;
+  border: 2px solid black;
+  width: auto;
+  align-self: center;
+}
+
+#reason {
+  display: flex;
+  align-items: flex-start;
+}
+
+form #reason textarea {
+  margin-left: 5px;
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 1rem;
+  background-color: red;
+  border: 2px solid black;
+  width: auto;
+  align-self: center;
 }
