@@ -112,7 +112,7 @@ form #submit {
   color: white;
   font-family: "Fjalla One", sans-serif;
   font-size: 2rem;
-  background-color: red;
+  background-color: tomato;
   border: 2px solid black;
   width: 30%;
   align-self: center;
@@ -122,7 +122,7 @@ form select {
   color: white;
   font-family: "Fjalla One", sans-serif;
   font-size: 1rem;
-  background-color: red;
+  background-color: tomato;
   border: 2px solid black;
   width: auto;
   align-self: center;
@@ -138,7 +138,7 @@ form #reason textarea {
   color: white;
   font-family: "Fjalla One", sans-serif;
   font-size: 1rem;
-  background-color: red;
+  background-color: tomato;
   border: 2px solid black;
   width: auto;
   align-self: center;
