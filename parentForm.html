@@ -37,37 +37,28 @@
       <form>
         <div id="teacher">
           <label>Teacher:</label>
-          <select id="teachDropper">
-            <option class="invisible" value="teacher"></option>
+          <select id="teachDropper" name="teacher">
+            <option class="invisible" value="no teacher selected"></option>
           </select>
         </div>
 
         <div id="gradelevel">
           <label>Grade Level:</label>
-          <select>
-            <option class="invisible" value="gradelevel"></option>
-            <!-- <option value="k">K</option>
-            <option value="1">First</option>
-            <option value="2">Second</option>
-            <option value="3">Third</option>
-            <option value="4">Fourth</option>
-            <option value="5">Fifth</option>
-            <option value="6">Sixth</option>
-            <option value="7">Seventh</option>
-            <option value="8">Eighth</option> -->
+          <select id="grademenu" name="grade">
+            <option class="invisible" value="no grade level selected"></option>
           </select>
         </div>
 
         <div id="student">
           <label>Student:</label>
-          <select>
-            <option class="invisible" value="student"></option>
+          <select id="studentmenu" name="student">
+            <option class="invisible" value="no student selected"></option>
           </select>
         </div>
 
         <div id="reason">
           <label>Reason:</label>
-          <textarea cols="40" rows="5" name="reason"></textarea>
+          <textarea cols="40" rows="2" name="reason"></textarea>
         </div>
 
         <input id="submit" type="submit" value="Submit"/>

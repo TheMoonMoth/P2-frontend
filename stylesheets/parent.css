@@ -88,8 +88,9 @@ main {
   padding: 20px 10px;
   background-color: grey;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
   color: white;
 }
 
@@ -105,7 +106,8 @@ form {
   padding: 30px;
   background-color: red;
   border: 2px solid white;
-  box-shadow: -5px 10px 15px 2px hsla(0, 0%, 20%, 0.5)
+  box-shadow: -5px 10px 15px 2px hsla(0, 0%, 20%, 0.5);
+  margin-bottom: 25px;
 }
 
 form #submit {
@@ -113,17 +115,18 @@ form #submit {
   font-family: "Fjalla One", sans-serif;
   font-size: 2rem;
   background-color: tomato;
-  border: 2px solid black;
+  border: 2px solid white;
   width: 30%;
   align-self: center;
 }
 
 form select {
   color: white;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 1rem;
+  font-family: "Shadows Into light", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
   background-color: tomato;
-  border: 2px solid black;
+  border: 2px solid white;
   width: auto;
   align-self: center;
 }
@@ -136,10 +139,11 @@ form select {
 form #reason textarea {
   margin-left: 5px;
   color: white;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 1rem;
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
   background-color: tomato;
-  border: 2px solid black;
-  width: auto;
+  border: 2px solid white;
+  width: 300px;
   align-self: center;
 }
