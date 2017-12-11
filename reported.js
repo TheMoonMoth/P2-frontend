@@ -1,4 +1,4 @@
-const tempPostApi = "http://localhost:3000/teacherboard"
+const tempPostApi = "https://vast-sea-25025.herokuapp.com/teacherboard"
 
 
 fetch(tempPostApi)

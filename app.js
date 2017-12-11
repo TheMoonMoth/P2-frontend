@@ -1,6 +1,6 @@
-const tempTeacherApi = "http://localhost:3000/teachers"
-const tempStudentApi = "http://localhost:3000/students"
-const tempPostApi = "http://localhost:3000/teacherboard"
+const tempTeacherApi = "https://vast-sea-25025.herokuapp.com/teachers"
+const tempStudentApi = "https://vast-sea-25025.herokuapp.com/students"
+const tempPostApi = "https://vast-sea-25025.herokuapp.com/teacherboard"
 
 fetch(tempTeacherApi)
   .then(response => response.json())
