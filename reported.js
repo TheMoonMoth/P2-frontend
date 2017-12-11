@@ -1,5 +1,6 @@
 const tempPostApi = "http://localhost:3000/teacherboard"
 
+
 fetch(tempPostApi)
   .then(response => response.json())
   .then(response => appendReports(response))
@@ -14,22 +15,17 @@ function appendReports(reportArray){
     let $teacherDiv = document.createElement('div')
     $teacherDiv.setAttribute('class', 'teacherDiv')
     let $justName = document.createElement('p')
-    $justName.textContent = `${report.teacher} : ${report.grade} grade`
+    $justName.textContent = `Teacher: ${report.teacher} - ${report.grade} grade`
     $teacherDiv.appendChild($justName)
     $card.appendChild($teacherDiv)
     let $reason = document.createElement('h3')
     $reason.textContent = report.reason
+    let $date = document.createElement('span')
     $card.appendChild($reason)
+    $date.textContent = report.date
+    $card.appendChild($date)
 
-    document.querySelector('#appendToMe').appendChild($card)
+    let board = document.querySelector('#appendToMe')
+    board.insertBefore($card, board.firstChild)
   })
 }
-
-
-
-
-// <h2 class="student"></h2>
-// <div class="teacher">
-//   <p class="teacherName"></p>
-//   <p class="teacherGrade"></p>
-// </div>

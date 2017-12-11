@@ -115,6 +115,11 @@ main .card {
   align-items: center;
 }
 
+.card span {
+  color: hsl(0, 0%, 50%);
+  align-self: flex-end;
+}
+
 main #appendToMe h2 {
   font-size: 2rem;
   font-family: "Shadows into Light", sans-serif;

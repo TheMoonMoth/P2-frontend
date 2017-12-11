@@ -162,5 +162,5 @@ function appendMessage(res){
   $main.appendChild($message)
   setTimeout(function(){
     $main.removeChild($main.lastChild)
-  }, 4000)
+  }, 2000)
 }
