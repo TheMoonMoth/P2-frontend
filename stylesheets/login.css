@@ -3,7 +3,7 @@
 body {
   font-family: 'Fjalla One', sans-serif;
 }
-/*-------------------------------------------------HEADER*/
+
 header {
   display: flex;
   justify-content: center;
@@ -81,7 +81,7 @@ li:hover li a:hover {
 #drop-nav li ul li {
   border-top: 0px;
 }
-/*-------------------------------------------------MAIN*/
+
 main {
   height: 92vh;
   padding: 20px 10px;
@@ -93,17 +93,15 @@ main {
   color: white;
 }
 
-/*--------------------------------------------------FORMS*/
 #parentLogin, #teacherLogin {
   font-size: 1.6rem;
-  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   height: 150px;
-  width: 250px;
-  padding: 30px;
+  width: 200px;
+  padding: 15px;
   margin-bottom: 20px;
   background-color: red;
   border: 2px solid white;
@@ -115,6 +113,11 @@ main {
   text-align: center;
   margin:10px;
   letter-spacing: 1px;
+}
+
+#brochure {
+  display: block;
+  float: left;
 }
 
 div h2 {

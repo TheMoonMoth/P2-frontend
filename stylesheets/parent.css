@@ -3,7 +3,7 @@
 body {
   font-family: 'Fjalla One', sans-serif;
 }
-/*-------------------------------------------------HEADER*/
+
 header {
   display: flex;
   justify-content: space-between;
@@ -82,7 +82,7 @@ li:hover li a:hover {
 #drop-nav li ul li {
   border-top: 0px;
 }
-/*-------------------------------------------------MAIN*/
+
 main {
   height: 92vh;
   padding: 20px 10px;
@@ -94,7 +94,6 @@ main {
   color: white;
 }
 
-/*--------------------------------------------------FORM*/
 form {
   font-size: 1.6rem;
   width: 450px;
