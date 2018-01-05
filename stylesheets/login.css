@@ -83,7 +83,6 @@ li:hover li a:hover {
 }
 
 main {
-  height: 92vh;
   padding: 20px 10px;
   background-color: grey;
   display: flex;
@@ -93,6 +92,19 @@ main {
   color: white;
 }
 
+section {
+  width: 60vw;
+  border: 2px solid white;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  box-shadow: -5px 10px 15px 2px hsla(0, 0%, 20%, 0.5);
+  background-color: red;
+}
+
+
 #parentLogin, #teacherLogin {
   font-size: 1.6rem;
   display: flex;
@@ -100,9 +112,8 @@ main {
   justify-content: space-between;
   align-items: center;
   height: 150px;
-  width: 200px;
+  width: 40%;
   padding: 15px;
-  margin-bottom: 20px;
   background-color: red;
   border: 2px solid white;
   box-shadow: -5px 10px 15px 2px hsla(0, 0%, 20%, 0.5)
@@ -116,8 +127,15 @@ main {
 }
 
 #brochure {
-  display: block;
-  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#brochure p {
+  letter-spacing: 1px;
+  line-height: 145%;
+  margin: 10px 5%;
 }
 
 div h2 {
